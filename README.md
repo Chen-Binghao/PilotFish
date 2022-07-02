@@ -38,3 +38,4 @@ Suppose the whole project has been compiled, then you only need to use the kerne
 3. It is better to disable cudnn in training jobs to reduce the rounds needed in kernel profiles.
 4. The version of CUDA and correlated header files may affect the compilation. You should check them in the main.h of RenderHook and KernelHook.
 5. The injection of games should be done manually when the game starts running benchmarks, because the states of games can not be detected.
+6. A video demo can be found in [video-demo](https://github.com/Chen-Binghao/PilotFish/tree/demo-video) branch.
