@@ -32,6 +32,14 @@ Suppose the whole project has been compiled, then you only need to use the kerne
 2. Training job profile: Set dl_dll in the script to be 'off' and use it to profile the training job. Then set dl_dll in the script to be 'full' and use it fully profile the training job.
 3. Co-location: Set dl_dll in the script to be the desired co-location version. Then launch the game and use RenderDLLInject to inject into the target game. When the game enters the benchmark, just run the script.
 
+# Demo Video
+
+
+https://user-images.githubusercontent.com/35565792/176988876-851f0fcc-91fe-4e6a-a3a1-e3fe3c0ebfb0.mp4
+
+
+The left column is PilotFish, the middle one is game standalone, and the right one is co-location without throttling.
+
 # Notes
 1. The process name of games includes AshesEscalation_DX12.exe, RDR2.exe, HITMAN3.exe, SOTTR.exe, F1_2021.exe.
 2. For most games, you should set the rendering engine as directx12 in settings, or they will use directx11 or vulkan default.
